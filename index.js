@@ -6,7 +6,7 @@ const app = express();
 const httpServer = createServer(app);
 const io = new Server(httpServer, {
   cors: {
-    origin: 'https://tictactoe-hgj6h7sjf-old-ephraims-projects.vercel.app',
+    origin: 'https://tictactoe-old-ephraims-projects.vercel.app',
   }
 });
 
